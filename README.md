@@ -7,10 +7,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/chatak1126/LeetCodeDSA/tree/master/0056-merge-intervals) |
 | [0152-maximum-product-subarray](https://github.com/chatak1126/LeetCodeDSA/tree/master/0152-maximum-product-subarray) |
 | [0493-reverse-pairs](https://github.com/chatak1126/LeetCodeDSA/tree/master/0493-reverse-pairs) |
+| [0704-binary-search](https://github.com/chatak1126/LeetCodeDSA/tree/master/0704-binary-search) |
 ## Binary Search
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/chatak1126/LeetCodeDSA/tree/master/0493-reverse-pairs) |
+| [0704-binary-search](https://github.com/chatak1126/LeetCodeDSA/tree/master/0704-binary-search) |
 ## Divide and Conquer
 |  |
 | ------- |
