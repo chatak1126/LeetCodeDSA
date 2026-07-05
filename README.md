@@ -89,4 +89,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/chatak1126/LeetCodeDSA/tree/master/0074-search-a-2d-matrix) |
 | [0240-search-a-2d-matrix-ii](https://github.com/chatak1126/LeetCodeDSA/tree/master/0240-search-a-2d-matrix-ii) |
 | [1901-find-a-peak-element-ii](https://github.com/chatak1126/LeetCodeDSA/tree/master/1901-find-a-peak-element-ii) |
+## String
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/chatak1126/LeetCodeDSA/tree/master/0796-rotate-string) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/chatak1126/LeetCodeDSA/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
