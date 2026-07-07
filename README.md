@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/chatak1126/LeetCodeDSA/tree/master/0014-longest-common-prefix) |
 | [0033-search-in-rotated-sorted-array](https://github.com/chatak1126/LeetCodeDSA/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/chatak1126/LeetCodeDSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/chatak1126/LeetCodeDSA/tree/master/0035-search-insert-position) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/chatak1126/LeetCodeDSA/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/chatak1126/LeetCodeDSA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/chatak1126/LeetCodeDSA/tree/master/0205-isomorphic-strings) |
 | [0796-rotate-string](https://github.com/chatak1126/LeetCodeDSA/tree/master/0796-rotate-string) |
@@ -113,4 +115,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0205-isomorphic-strings](https://github.com/chatak1126/LeetCodeDSA/tree/master/0205-isomorphic-strings) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/chatak1126/LeetCodeDSA/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
