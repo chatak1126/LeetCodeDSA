@@ -2,47 +2,25 @@
  class Solution {
 public:
     int myAtoi(string s) {
-        // Your code goes here
-        int i=0;
-        while(i<s.size() && s[i]==' ') i++;
 
-        string currentnum = "";
+        int i=0, n = s.size();
 
-        // ignore all white space
-        for(i; i<s.size(); i++){
+        while(i<n && s[i]==' ') i++;
 
-            if(s[i]=='-' && i+1<s.size() && isdigit(s[i+1])){
-                if(i==0 || !isdigit(s[i-1])){
-                    currentnum += s[i];
-                    continue;
-                }
-                else {
-                    break;
-                }
-            }
-            else if (s[i] == '+' && i + 1 < s.size() && isdigit(s[i + 1])) {
-                if (i == 0 || !isdigit(s[i - 1])) {
-                    // just skip the '+' (don’t append, since stoi handles positive by default)
-                    continue;
-                } else break;
-            }
-            else if(isdigit(s[i])){
-                currentnum += s[i];
-                continue;
-            }
-            else{
-                break;
-            }
-        }
-        if(currentnum.empty() || currentnum == "-") return 0;
-
-        int number=0; 
-        try{
-            number = stoi(currentnum);
-        }catch(out_of_range&){
-            number = (currentnum[0]=='-') ? INT_MIN : INT_MAX;
+        int sign=1;
+        if(i < n && (s[i]=='+') || (s[i]=='-')){
+            sign = (s[i] == '-') ? -1 : 1;
+            i++;
         }
 
-        return number;
+        long int number = 0;
+        while(isdigit(s[i])){
+            number = number*10 + (s[i] - '0');
+
+            if(number*sign >= INT_MAX) return INT_MAX;
+            if(number*sign <= INT_MIN) return INT_MIN;
+            i++;
+        }
+        return (int)number*sign;
     }
 };
